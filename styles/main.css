@@ -95,3 +95,28 @@
   list-style-type: disc;
   list-style-position:inside;
 }
+.picture {
+  display: block; 
+  border-radius: 0 100px;
+}
+.address {
+  margin: 10px 30px;
+  letter-spacing: 1px;
+}
+.address > a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.aside h3.caption {
+  position: relative;
+  display: block;
+  margin-left: 10px;
+  padding: 0;
+  background-color: transparent;
+}
+.caption-aside {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
