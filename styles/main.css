@@ -39,3 +39,59 @@
   color: #fff;
   background-color: #2b3a50;
 }
+.item-content {
+  margin-top: 10px;
+}
+.title,
+.caption  {
+  font-family: "Playfair Display", "Book Antiqua", Palatino, "Times New Roman", Times, serif;
+}
+.title {
+  max-width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #424242;
+}
+.caption {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  padding: 0 10px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #fff;
+  letter-spacing: 1px;
+  background-color: #2b3a50;
+  -webkit-border-radius: 5px / 10px;
+     -moz-border-radius: 5px / 10px;
+          border-radius: 5px / 10px;
+}
+.box-inner {
+  position: relative;
+  max-width: 100%;
+}
+.aside h3.caption::after,
+.box-inner::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  margin-left: -10px;
+  width: calc(100% + 10px);
+  height: 2px;
+  background: #828b8b;
+}
+.text,
+.main li {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.main ul {
+  list-style-type: disc;
+  list-style-position:inside;
+}
