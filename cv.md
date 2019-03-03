@@ -30,3 +30,6 @@ I havn\`t any commercial experience in developing web site or program. I execute
 + Languages: `HTML5`, `CSS3`, `JavaScript` 
 + Version control system: `Git`  
 + Graphics editor: `Photoshop`  
+## Foreign languages:
++ English: **А2**  
+*Experience: preparation report for management, business correspondence, participation in meeting*
