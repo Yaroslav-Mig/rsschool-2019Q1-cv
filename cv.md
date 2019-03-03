@@ -26,3 +26,7 @@ I havn\`t any commercial experience in developing web site or program. I execute
 + IT-Academy: [*courses for web-developer*](https://www.it-academy.by/course/front-end-developer/)  
 + Codecademy: [*achievements*](https://www.codecademy.com/users/flogger23/achievements/)  
 + Codewars: [*rank*](https://www.codewars.com/users/flogger23/)  
+## Skills:
++ Languages: `HTML5`, `CSS3`, `JavaScript` 
++ Version control system: `Git`  
++ Graphics editor: `Photoshop`  
