@@ -19,3 +19,8 @@ Stydy period: *2005 \- 2010*
 Place: *Belarussian State Economic University*  
 Faculty: *Department of managment*
 
+## Summary  
+I started to learn programming in 2018. I have become more interested in learning of JS, CSS and HTML. I had set myself a new goal that I want to become a front-end developer.  
+When I have a free time, I try to spend it on my studies. My educational process include watching
+video, reading book and certainly doing exercise. Essential element is practise. I consider, programmer often face on new chalenge for work. He have to solve new task. Thus, you should always train your brain and improve your skills.  
+So, I like it. It\`s chalenge for me.
