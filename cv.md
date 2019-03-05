@@ -30,7 +30,7 @@ I havn\`t any commercial experience in developing web site or program. I execute
 ## Skills:
 + Languages: `HTML5`, `CSS3`, `JavaScript` 
 + Version control system: `Git`  
-+ Graphics editor: `Photoshop
++ Graphics editor: `Photoshop`
 
 ## Foreign languages:
 + English: **А2**  
