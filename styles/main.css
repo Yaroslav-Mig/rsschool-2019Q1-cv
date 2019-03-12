@@ -25,21 +25,23 @@
 .item-content,
 .picture,
 .skills-level,
-.skills-level__img {
+.skills-level__img,
+.box-inner,
+.address,
+.address__link {
 -webkit-box-sizing: border-box;
         box-sizing: border-box;
 }
 .main {
-  width: 70%;
+  width: 68%;
   padding: 10px 30px 10px 10px;
   font-family: Roboto, Verdana, Helvetica, Arial, sans-serif;
   color: #000000;
 }
 .aside {
-  width: 30%;
+  width: 32%;
   padding: 20px 0;
   font-family: "Hammersmith One", Verdana, Helvetica, Arial, sans-serif;
-  font-size: 1rem;
   color: #fff;
   background-color: #2b3a50;
 }
@@ -109,11 +111,11 @@
           transition: all 0.4s ease-in-out;
 }
 .list-content__link:hover {
+  color: #fff;
   -webkit-box-shadow: inset 0 -20px 0 #2b3a50, 
                       2px 2px 3px rgba(0,0,0,0.3);
           box-shadow: inset 0 -20px 0 #2b3a50, 
                       2px 2px 3px rgba(0,0,0,0.3);
-  color: #fff;
 }
 .list-content {
   list-style-type: disc;
@@ -121,16 +123,28 @@
 }
 .picture {
   display: block; 
-  border-radius: 0 100px;
+  -webkit-border-radius: 0 100px;
+     -moz-border-radius: 0 100px;
+          border-radius: 0 100px;
 }
 .address {
-  margin: 10px 30px;
+  margin: 10px 10px;
   letter-spacing: 1px;
 }
 .address__link {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
   color: #fff;
   text-decoration: none;
   cursor: pointer;
+  -ms-word-wrap: break-word;
+      word-wrap: break-word;
+}
+.address__text {
+  width: 90%;
+  margin-left: 7px;
 }
 .aside h3.caption {
   position: relative;
@@ -150,7 +164,7 @@
 }
 .skills-level__img {
   display: inline-block;
-  max-width: 100%;  
+  max-width: 100%;
   margin-right: 5px;
 }
 .circle {
