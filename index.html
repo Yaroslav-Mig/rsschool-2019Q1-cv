@@ -9,7 +9,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta name="author" content="Yaroslav Mescheryakov">
+  <base target="_blank">
+  <link rel="icon" href="favicon.png" sizes="16x16 32x32" type="image/png">
   <link rel="stylesheet" href="styles/library/reset.css">
+  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles/main.css">
 </head>
 
@@ -50,18 +53,26 @@
             <div class="box-inner">
                 <h3 class="caption">Courses</h3>
             </div>
-            <ul>
-                <li>
-                  <a href="https://www.it-academy.by/course/front-end-developer/" target="_blank">IT-Academy</a>
+            <ul class="list-content">
+                <li class="list-content__item">
+                    <a class="list-content__link" href="https://www.it-academy.by/course/front-end-developer/" target="_blank">
+                    IT-Academy
+                    </a>
                 </li>
-                <li>
-                  <a href="https://www.codecademy.com/users/flogger23/achievements/" target="_blank">Codecademy</a>
+                <li class="list-content__item">
+                    <a class="list-content__link" href="https://www.codecademy.com/users/flogger23/achievements/" target="_blank">
+                        Codecademy
+                    </a>
                 </li>
-                <li>
-                  <a href="https://www.codewars.com/users/flogger23/" target="_blank">Codewars</a>
+                <li class="list-content__item">
+                    <a class="list-content__link" href="https://www.codewars.com/users/flogger23/" target="_blank">
+                        Codewars
+                    </a>
                 </li>
-                <li>
-                  <a href="https://www.mslu.by/" target="_blank">English courses at MSLU</a>
+                <li class="list-content__item">
+                    <a class="list-content__link" href="https://www.mslu.by/" target="_blank">
+                        English courses at MSLU
+                    </a>
                 </li>
             </ul>
         </section>
@@ -69,12 +80,12 @@
             <div class="box-inner">
                 <h3 class="caption">Personality</h3>
             </div>
-            <ul>
-                <li>Responsible</li>
-                <li>Organized</li>
-                <li>Sociable</li>
-                <li>Good critical thinking</li>
-                <li>Attentive listening and good communication skills</li>
+            <ul class="list-content">
+                <li class="list-content__item">Responsible</li>
+                <li class="list-content__item">Organized</li>
+                <li class="list-content__item">Sociable</li>
+                <li class="list-content__item">Good critical thinking</li>
+                <li class="list-content__item">Attentive listening and good communication skills</li>
             </ul>
         </section>
     </main>
@@ -85,35 +96,53 @@
         <section class="item-content">
             <h3 class="caption">Personal information</h3>
             <address class="address">
-                50 Let Pobedy Street, 3-61, Minsk, 220056, Belarus
+                <a class="address__link" href="https://www.google.com/maps/place/%D1%83%D0%BB.+50+%D0%BB%D0%B5%D1%82+%D0%9F%D0%BE%D0%B1%D0%B5%D0%B4%D1%8B+3,+%D0%9C%D0%B8%D0%BD%D1%81%D0%BA/@53.9474252,27.7018118,14z/data=!4m5!3m4!1s0x46dbc9574db4bd95:0xa09e70d81bc1623e!8m2!3d53.9474233!4d27.7193212">
+                    <i class="fa fa-map-marker"></i>
+                    <span class="address__text"> 50 Let Pobedy Street, 3-61, Minsk, 220056, Belarus<span>
+                </a>
             </address>
             <address class="address"> 
-                <a href="tel:+375296514072">+375 29 651-40-72</a>
+                <a class="address__link" href="tel:+375296514072">
+                    <i class="fa fa-phone"></i>
+                    <span class="address__text"> +375 29 651-40-72<span>
+                </a>
             </address>
             <address class="address">
-                <a href="mailto:migyaroslav@gmail.com">migyaroslav@gmail.com</a>
+                <a class="address__link" href="mailto:migyaroslav@gmail.com">
+                    <i class="fa fa-envelope"></i>
+                    <span class="address__text">migyaroslav@gmail.com<span>
+                </a>
             </address>
             <address class="address">
-                <a href="skype:jarkkoman?chat">skype: jarkkoman</a>
+                <a class="address__link" href="skype:jarkkoman?chat">
+                    <i class="fa fa-skype"></i>
+                    <span class="address__text">jarkkoman</span>
+                </a>
+            </address>
+            <address class="address">
+                <a class="address__link" href="https://t.me/flogger23mld/">
+                    <i class="fa fa-telegram"></i>
+                    <span class="address__text">telegram</span>
+                </a>
             </address>
         </section>
         <section class="item-content">
                 <h3 class="caption">Languages</h3>
             <h4 class="caption-aside">English</h4>
-            <ul>
-                <li>
+            <ul class="skills-level">
+                <li class="skills-level__img">
                     <div class="circle"></div>
                 </li>
-                <li>
+                <li class="skills-level__img">
                     <div class="circle"></div>
                 </li>
-                <li>
+                <li class="skills-level__img">
                     <div class="circle circle-progress"></div>
                 </li>
-                <li>
+                <li class="skills-level__img">
                     <div class="circle circle-progress"></div>
                 </li>
-                <li>
+                <li class="skills-level__img">
                     <div class="circle circle-progress"></div>
                 </li>
             </ul>
@@ -121,74 +150,92 @@
         <section class="item-content">
             <h3 class="caption">Software skills</h3>
             <h4 class="caption-aside">HTML</h4>
-            <ul>
-                <li>
+            <ul class="skills-level">
+                <li class="skills-level__img">
                     <div class="circle"></div>
                 </li>
-                <li>
+                <li class="skills-level__img">
                     <div class="circle"></div>
                 </li>
-                <li>
+                <li class="skills-level__img">
                     <div class="circle"></div>
                 </li>
-                <li>
+                <li class="skills-level__img">
                     <div class="circle"></div>
                 </li>
-                <li>
+                <li class="skills-level__img">
                     <div class="circle circle-progress"></div>
                 </li>
             </ul>
             <h4 class="caption-aside">CSS</h4>
-            <ul>
-                <li>
+            <ul class="skills-level">
+                <li class="skills-level__img">
                     <div class="circle"></div>
                 </li>
-                <li>
+                <li class="skills-level__img">
                     <div class="circle"></div>
                 </li>
-                <li>
+                <li class="skills-level__img">
                     <div class="circle circle-progress"></div>
                 </li>
-                <li>
+                <li class="skills-level__img">
                     <div class="circle circle-progress"></div>
                 </li>
-                <li>
+                <li class="skills-level__img">
                     <div class="circle circle-progress"></div>
                 </li>
             </ul>
             <h4 class="caption-aside">JS</h4>
-            <ul>
-                <li>
+            <ul class="skills-level">
+                <li class="skills-level__img">
                     <div class="circle"></div>
                 </li>
-                <li>
+                <li class="skills-level__img">
                     <div class="circle circle-progress"></div>
                 </li>
-                <li>
+                <li class="skills-level__img">
                     <div class="circle circle-progress"></div>
                 </li>
-                <li>
+                <li class="skills-level__img">
                     <div class="circle circle-progress"></div>
                 </li>
-                <li>
+                <li class="skills-level__img">
                     <div class="circle circle-progress"></div>
                 </li>
             </ul>
             <h4 class="caption-aside">Photoshop</h4>
-            <ul>
-                <li>
+            <ul class="skills-level">
+                <li class="skills-level__img">
                     <div class="circle"></div>
                 </li>
-                <li>
+                <li class="skills-level__img">
                     <div class="circle circle-progress"></div>
                 </li>
-                <li>
+                <li class="skills-level__img">
                     <div class="circle circle-progress"></div>
                 </li>
-                <li>
+                <li class="skills-level__img">
                     <div class="circle circle-progress"></div>
                 </li>
-                <li>
+                <li class="skills-level__img">
+                    <div class="circle circle-progress"></div>
+                </li>
+            </ul>
+            <h4 class="caption-aside">GIT</h4>
+            <ul class="skills-level">
+                <li class="skills-level__img">
+                    <div class="circle"></div>
+                </li>
+                <li class="skills-level__img">
+                    <div class="circle"></div>
+                </li>
+                <li class="skills-level__img">
+                    <div class="circle circle-progress"></div>
+                </li>
+                <li class="skills-level__img">
+                    <div class="circle circle-progress"></div>
+                </li>
+                <li class="skills-level__img">
                     <div class="circle circle-progress"></div>
                 </li>
             </ul>
